@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('img/5vltlvdi2dqy 1.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Righteous', sans-serif;
+    width: 100vw;
+}
+.foot {
+    width: 100vw;
+    height: 100px;
+    background-color: #FF961F;
+}
+nav{
+    display: flex;
+    background-color: #FF961F;
+}
+nav div{
+    width: 33%;
+    height: 100px;
+
+}
+/*dit is de login button*/
+
+li{
+    list-style: none;
+}
+/*dit is nog van de navigatie*/
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF961F;
+    list-style: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #FF961F;
+}
+.menu-items
+{
+    background-color: black;
+    height: 100px;
+    width: 150px;
+    color: white;
+}
